@@ -1,4 +1,4 @@
- let divs = document.querySelectorAll(".image");
+ const divs = document.querySelectorAll(".image");
   let draggeddiv = null;
         divs.forEach((input, index) => {
             input.setAttribute("draggable", "true");
